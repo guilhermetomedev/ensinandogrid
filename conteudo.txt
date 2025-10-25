@@ -1,0 +1,49 @@
+GridLab – Aprendendo CSS Grid
+O que é CSS Grid?
+
+CSS Grid é uma ferramenta poderosa para criar layouts na web.
+Ela permite dividir o espaço do seu site em linhas e colunas, dando controle total sobre o posicionamento de cada elemento.
+
+Por que usar Grid?
+
+Cria layouts mais organizados.
+
+Facilita o alinhamento de elementos.
+
+É mais flexível que o Flexbox quando precisamos de linhas e colunas juntas.
+
+Reduz a necessidade de “gambiarras” com floats e margens.
+
+Conceitos importantes
+
+Container e Itens
+
+O container é o elemento pai onde você aplica display: grid.
+
+Os itens são os filhos que serão posicionados dentro desse container.
+
+Linhas e Colunas
+
+grid-template-columns define quantas colunas e seus tamanhos.
+
+grid-template-rows define quantas linhas e seus tamanhos.
+
+Gaps
+
+gap (ou row-gap e column-gap) define o espaço entre linhas e colunas.
+
+Áreas
+
+Você pode nomear áreas do grid para posicionar os itens com mais facilidade.
+
+Frações (fr)
+
+Uma unidade chamada fr divide o espaço disponível proporcionalmente.
+
+Ex: 1fr 2fr 1fr → a coluna do meio é duas vezes maior que as laterais.
+
+Alinhamento
+
+justify-items e align-items controlam o alinhamento dentro de cada célula.
+
+justify-content e align-content controlam o alinhamento do conjunto do grid.
